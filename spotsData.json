@@ -1,0 +1,73 @@
+[
+    {
+        "locationName": "",
+        "locationDescription": "",
+        "lat": 3000,
+        "lng": 3000,
+        "group": "Cities"
+    },
+
+
+
+
+
+    {
+        "locationName": "",
+        "locationDescription": "",
+        "lat": 3000,
+        "lng": 3000,
+        "group": "Towns"
+    },
+
+
+
+
+
+    {
+        "locationName": "Fengil's Home",
+        "locationDescription": "The now destroyed home of Fengil Linx",
+        "lat": 496,
+        "lng": 735,
+        "group": "Places Of Interest"
+    },
+    {
+        "locationName": "Mysterious Symbol",
+        "locationDescription": "Fengil's people are heading towards what looks to be a abandoned library. What could the symbol really mean?",
+        "lat": 759,
+        "lng": 156,
+        "group": "Places Of Interest"
+    },
+
+
+
+
+
+    
+    {
+        "locationName": "Session 16",
+        "locationDescription": "The party sneaks into the Sea Farers Guild after stealing two of the guards uniforms. After some complications the group is taken downstairs where Fengil reluctantly uses the power contained within his bag to kill the Sea Farers Guild after watching his kind innocently sacrificed.",
+        "lat": 491,
+        "lng": 652,
+        "group": "Previous Sessions"
+    },
+    {
+        "locationName": "Session 17",
+        "locationDescription": "Fengil calls cargo after finding his people. and decides to turn in his power to keep it safe as it was always meant to be.",
+        "lat": 489,
+        "lng": 655,
+        "group": "Previous Sessions"
+    },
+
+
+
+
+
+
+    {
+        "locationName": "",
+        "locationDescription": "",
+        "lat": 3000,
+        "lng": 3000,
+        "group": "Other"
+    }
+]
