@@ -6,6 +6,7 @@
 
 This project was made to create a interactive map for my group of friends i play DnD with. It combines a JavaScript library called [Leaflet](https://leafletjs.com/) with a easy to read/write json database. It will mainly be used and edited by my party but others may clone the project to suit their needs.
 
+[See the map in action here:](https://lukedev820.github.io/Interactive-DnD-Map/)
 
 ## Installation
 
