@@ -13,7 +13,7 @@ map.fitBounds(bounds);
 function CoordinatesCompass(){
 var marker = L.marker([246, 868], {
   draggable: true,
-  icon: orange,
+  icon: black,
 }).addTo(map);
 marker.bindPopup('<b>Coordinates compass:</b> Drag me to find (lat, long)!').openPopup();
 marker.on('dragend', function(e) {
@@ -41,19 +41,19 @@ async function mapSpotsToMap() {
       let colour;
       switch (spot.group) {
         case "Cities": 
-          colour = red;
+          colour = gold;
           break;
         case "Places Of Interest":
-          colour = grey; 
+          colour = red; 
           break;
         case "Towns":
-          colour = violet; 
+          colour = orange; 
           break;
         case "Previous Sessions":
-          colour = blue; 
+          colour = violet; 
           break;
         case "Important Places":
-          colour = ;
+          colour = green;
           break;
         default:
           colour = grey;
