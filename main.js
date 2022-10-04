@@ -30,6 +30,7 @@ async function mapSpotsToMap() {
       var Towns = L.layerGroup();
       var Places_Of_Interest = L.layerGroup();
       var Previous_Sessions = L.layerGroup();
+      var Important_Places = L.layerGroup();
       var Other = L.layerGroup();
 
     for (let spot of spotsData) {;
@@ -51,6 +52,9 @@ async function mapSpotsToMap() {
         case "Previous Sessions":
           colour = blue; 
           break;
+        case "Important Places"
+          colour = ;
+          break;
         default:
           colour = grey;
       }
@@ -63,12 +67,20 @@ async function mapSpotsToMap() {
         case "Cities":
           marker.addTo(Cities);
           break;
+        case "Towns"
+          marker.addTo(Towns);
+          break;
         case "Places Of Interest":
           marker.addTo(Places_Of_Interest);
           break;
         case "Previous Sessions":
           marker.addTo(Previous_Sessions);
           break;
+        case "Important Places":
+          marker.addTo(Important_Places);
+        default:
+          marker.addTo(Other);
+
       }
   }
   //Group the overlays together
@@ -77,6 +89,7 @@ async function mapSpotsToMap() {
     "Towns 🛖" : Towns.addTo(map),
     "Places of interest 🔎" : Places_Of_Interest.addTo(map),
     "Previous Sessions 📝" : Previous_Sessions.addTo(map),
+    "Important Places 🌟" : Important_Places.addTo(map),
     "Other ❓": Other.addTo(map),
   }
   //Add them to the map

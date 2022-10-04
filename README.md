@@ -41,6 +41,7 @@ Run the `index.html` on a live server.
 	- Places Of Interest
 	- Towns
 	- Previous Sessions
+    - Important Places
 	- Other **(Default)**
  - Scroll down to the bottom to **Commit Changes**  and write a title and decsription of the change
  - Once the changes have been committed head back to the fork and press **Contribute** then **Open pull request**
