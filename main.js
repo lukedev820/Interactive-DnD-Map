@@ -52,7 +52,7 @@ async function mapSpotsToMap() {
         case "Previous Sessions":
           colour = blue; 
           break;
-        case "Important Places"
+        case "Important Places":
           colour = ;
           break;
         default:
@@ -67,7 +67,7 @@ async function mapSpotsToMap() {
         case "Cities":
           marker.addTo(Cities);
           break;
-        case "Towns"
+        case "Towns":
           marker.addTo(Towns);
           break;
         case "Places Of Interest":
