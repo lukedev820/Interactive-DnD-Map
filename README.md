@@ -15,36 +15,6 @@ Clone the repository
     git clone https://github.com/lukedev820/Interactive-DnD-Map
 Run the `index.html` on a live server. 
 
-## Adding markers (DnD group only)
-
- 1. Edit the `spotsData.json` on your fork.
- 2. Add a comma to the bottom closing bracket `}` and paste the template 
- ```
- {
-
-	"locationName": "",
-
-	"locationDescription": "",
-
-	"lat": 300,
-
-	"lng": 300,
-
-	"group": ""
-
-} 
-```
- - Enter a name and description 
- - Use the **Coordinates compass** to find the Latitude and Longitude.
- - Choose a group from the list:
-	- Cities
-	- Places Of Interest
-	- Towns
-	- Previous Sessions
-    - Important Places
-	- Other **(Default)**
- - Scroll down to the bottom to **Commit Changes**  and write a title and decsription of the change
- - Once the changes have been committed head back to the fork and press **Contribute** then **Open pull request**
 ## Configuration
  - Markers can be added to your map within the `spotsData.json` (See [Adding markers](#adding-markers-dnd-group-only) for the marker template.
  - Map setup and JSON marker generator are located in `main.js`
