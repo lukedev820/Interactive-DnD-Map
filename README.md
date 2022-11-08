@@ -4,7 +4,7 @@
 ## About
 ![Cover art](coverart.png)
 
-This project was made to create a interactive map for my group of friends i play DnD with. It combines a JavaScript library called [Leaflet](https://leafletjs.com/) with a easy to read/write json database. It will mainly be used and edited by my party but others may clone the project to suit their needs.
+This project was made to create an interactive map for my group of friends I play D&D with. It combines a JavaScript library called [Leaflet](https://leafletjs.com/) with an easy to read/write json database. It will mainly be used and edited by my party but others may clone the project to suit their needs.
 
 [See the map in action here:](https://lukedev820.github.io/Interactive-DnD-Map/)
 
@@ -20,8 +20,6 @@ Run the `index.html` on a live server.
  - Map setup and JSON marker generator are located in `main.js`
  - Marker icon configurations can be found markers.js
  - Icon files are located in `icons/`
-## Contributing
-Although adding new markers to the main map is strictly for the D&D Group using it. If you think the code can be improved or fixed feel free to send a PR with your changes.
 
 ## License
 [BSD-2-Clause license](LICENSE)
